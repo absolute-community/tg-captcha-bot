@@ -51,7 +51,7 @@ func AdminRights() Rights {
 
 // Forever is a Unixtime of "forever" banning.
 func Forever() int64 {
-	return time.Now().Add(367 * 24 * time.Hour).Unix()
+	return time.Now().Add(1 * 24 * time.Hour).Unix()
 }
 
 // Ban will ban user from chat until `member.RestrictedUntil`.
